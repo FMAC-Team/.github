@@ -20,9 +20,7 @@ We believe system security should be accessible to everyone. FMAC empowers users
 | Project | Description |
 |---------|-------------|
 | [`fmanager`](https://github.com/FMAC-Team/fmanager) | Flutter-based frontend with Material 3 design, dynamic theming, and rule editing |
-| [`fmac`](https://github.com/FMAC-Team/fmac) | Kernel module using `kprobe` for syscall interception and path-based access control |
-| `fctl` *(planned)* | CLI tool for rule management and live status inspection |
-| `fmac-signer` *(planned)* | ELF signature tool to verify `.signature` section from kernel space |
+| [`fmac`](https://github.com/FMAC-Team/fmac) | Kernel module for syscall interception and path-based access control |
 
 ---
 
@@ -30,8 +28,6 @@ We believe system security should be accessible to everyone. FMAC empowers users
 
 - 📱 Flutter 3 (Material You + Android 15 support)
 - 🧬 C/C++ Linux kernel module development
-- 🧩 `kprobe`, SELinux context management, Netlink/procfs communication
-- 🔐 Custom TOTP verification and ELF signature verification (WIP)
 
 ---
 
